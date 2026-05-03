@@ -1,0 +1,107 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/*NAVBAR*/
+.nav-bar{
+    position: sticky;/*Keeps the position sticky*/
+    top: 0; /*Leave no gas between start of the device view port and start
+    of the navbar, immediate navbar font-display: ;*/
+    z-index: 9;/*This will make the navbar scroll over 
+    all the other elements in the page*/
+    background-color: orange;
+    margin: -20px 10px -10px -10px;
+    display: flex;
+}
+
+ul{
+    list-style-type: none;/*removes the default styling 
+    to get rid of dotted circle for list item*/
+    display: flex
+}
+
+a{
+    display: block; /*Displays anchor elements vertically
+    on a new line, this was added so that the drop down menu displays
+    vertically not horizontally on the screen*/
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    width: 100px;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in;
+
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    transition: background-color 0.5s ease-in;
+}
+
+/*IMAGES*/
+
+img{
+    width: 500px;
+    height: 350px;
+}
+
+h1{
+    text-align: center;/*Aligns the text to the center of the 
+    browser screen*/
+}
+
+/*FORM CSS*/
+form{
+    padding: 15px;
+    display: table;
+    margin: auto;
+    background-color: bisque;
+}
+
+.submit-button{
+    width: 50%;/*Makes the submit button list-style-type 
+    bit big to be inline with input field size, occupies
+    half size available on form width*/
+    justify-content: center;
+    margin-left: 100px;/*Makes the submit button appear
+    at the center of the form*/
+}
+
+input{
+    border: 2px solid rgb(165,165,165);
+    border-radius: 2px;
+    padding: 1px;
+    margin: 10px 15px 10px 0;
+    font-size: 20px;
+    color: rgb(165,165,165);
+    transform: color 0.3s ease-out;
+    width: 75%;
+}
+
+textarea{
+    width: 100%;/*to make the text area display below 
+    the message field to be inline with input fields 
+    appearance*/
+    height: 100px;
+    box-shadow: border-box;
+}
+
+
+/*FOOTER*/
+footer{
+    bottom: 0; /*Positions the footer at the bottom of 
+    the screen*/
+    align-items: center;
+    margin: 0px -8px -8px -8px;/*Stretches the footer background beyond
+    the browsers edge leaving no white space*/
+    background-color: rgb(1,128,106);
+    border-top: 5px solid rgb(247,177,188);
+}
+
+ 
