@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/theater-curtains.jpg);
+    background-size: 100% 120%;/*100% horizontally and 120% vertically*/
+    background-attachment: fixed;
+    overflow-y: hidden; /*Hides top to bottom scroll bar*/
+ }
+
+footer{
+    border: 5px solid white;
+    background-color: rbga(0,0,0,0.6);
+    margin: 0px -15px 0px -15px; /*Extends the footer beyond the webpage 
+    on the left and right sides leaving no white space */
+    bottom: 0;
+}
+
+/*Adds padding top to simulate other elements so footer will be displayed at bottom*/
+
+.pt-80{
+      padding-top: 80vh;
+}
+
+span {
+    cursor: default;
+}
+svg{
+    color: white;
+}
+ 
