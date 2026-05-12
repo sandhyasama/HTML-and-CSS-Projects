@@ -3,11 +3,11 @@ HTML and CSS Projects for HTML course
 This repository will contain all assignment and projects related to HTML and CSS course
 
 # Projects
-    - [Pet Shop Website](#pet-shop-website)
-    - [Simple Recipes](#simple-recipes)
-    - [Academy Cinemas](#academy-cinemas)
-    - [One Page Website About Grace Hopper](#grace-hopper)
-    - [Student Portfolio Website](#student-portfolio-website)
+- [Pet Shop Website](#pet-shop-website)
+- [Simple Recipes](#simple-recipes)
+- [Academy Cinemas](#academy-cinemas)
+- [One Page Website About Grace Hopper](#grace-hopper)
+- [Student Portfolio Website](#student-portfolio-website)
 
 ## Pet Shop Website
 Pet Shop Website is developed using basic HTML and CSS, this site focuses on pets content, showing different images of the perts, applying filters and showing hover effects using CSS
